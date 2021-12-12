@@ -1,0 +1,2 @@
+workdir: "/gfsdata/jinh_data/hybrid_pipeline/03_meta_assembly/wkdir"
+file_names_txt: '/gfsdata/jinh_data/hybrid_pipeline/03_meta_assembly/read.path'
