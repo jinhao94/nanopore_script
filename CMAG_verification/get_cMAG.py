@@ -4,18 +4,7 @@ from collections import defaultdict
 
 aln   = sys.argv[1]
 #########################################
-# USAGE: python search_for_circ_contigs.py <CONTIGS.FASTA>
-#
-# This writes out a set of blasr commands
-# specific to the supplied contigs that
-# can be executed separately (might
-# take awhile to run).
-#
-#
-# Any blasr output files containing 
-# alignments (i.e. non-zero file size)
-# are possibly circularized and should
-# be further investigated.
+# USAGE: python get_cMAG.py <CONTIGS.FASTA>
 #########################################
 
 # First preprocess the sequences so that we can align two portions of each sequence to each other
